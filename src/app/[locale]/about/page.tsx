@@ -26,15 +26,15 @@ export default async function AboutPage({ params }: AboutPageProps) {
     <main id="content">
       <section className="mx-auto grid max-w-[1500px] items-end gap-10 px-5 py-16 md:grid-cols-12 md:px-10 md:py-24">
         <div className="md:col-span-7">
-          <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("kicker")}</p>
-          <h1 className="mt-4 font-serif text-5xl leading-[0.9] tracking-[-0.04em] md:text-7xl">
+          <p className="rise text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("kicker")}</p>
+          <h1 className="rise rise-d1 mt-4 font-serif text-5xl leading-[0.9] tracking-[-0.04em] md:text-7xl">
             {t("headline")}
           </h1>
         </div>
-        <p className="max-w-md text-[15px] leading-7 text-muted md:col-span-5">{t("intro")}</p>
+        <p className="rise rise-d2 max-w-md text-[15px] leading-7 text-muted md:col-span-5">{t("intro")}</p>
       </section>
 
-      <div className="relative h-[70vw] max-h-[760px] min-h-80">
+      <div className="settle relative h-[70vw] max-h-[760px] min-h-80">
         <Image
           src="/insta-media/pics/IMG_0929.JPG.jpeg"
           alt={t("heroAlt")}
@@ -47,7 +47,12 @@ export default async function AboutPage({ params }: AboutPageProps) {
 
       <section className="mx-auto grid max-w-[1500px] gap-12 px-5 py-16 md:grid-cols-3 md:px-10 md:py-24">
         {indexes.map((index) => (
-          <article key={index} className="border-t border-ink pt-5">
+          <article
+            key={index}
+            data-reveal=""
+            style={{ animationDelay: `${index * 80}ms` }}
+            className="border-t border-ink pt-5"
+          >
             <p className="text-[10px] uppercase tracking-[0.28em] text-muted">0{index + 1}</p>
             <h2 className="mt-3 font-serif text-3xl tracking-[-0.03em]">{t(`notes.${index}.title`)}</h2>
             <p className="mt-4 text-[15px] leading-7 text-muted">{t(`notes.${index}.text`)}</p>
@@ -55,7 +60,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
         ))}
       </section>
 
-      <section className="grid border-t border-line md:grid-cols-2">
+      <section data-reveal="" className="grid border-t border-line md:grid-cols-2">
         <div className="relative min-h-80">
           <Image
             src="/insta-media/pics/IMG_0934.JPG.jpeg"
@@ -79,13 +84,18 @@ export default async function AboutPage({ params }: AboutPageProps) {
 
       <section className="border-t border-line">
         <div className="mx-auto max-w-[1500px] px-5 py-16 md:px-10 md:py-24">
-          <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("orderKicker")}</p>
-          <h2 className="mt-4 max-w-3xl font-serif text-4xl leading-[0.95] tracking-[-0.03em] md:text-6xl">
+          <p data-reveal="" className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("orderKicker")}</p>
+          <h2 data-reveal="" className="mt-4 max-w-3xl font-serif text-4xl leading-[0.95] tracking-[-0.03em] md:text-6xl">
             {t("orderTitle")}
           </h2>
           <ol className="mt-12 grid gap-10 md:grid-cols-3">
             {indexes.map((index) => (
-              <li key={index} className="border-t border-ink pt-5">
+              <li
+                key={index}
+                data-reveal=""
+                style={{ animationDelay: `${index * 80}ms` }}
+                className="border-t border-ink pt-5"
+              >
                 <p className="text-[10px] uppercase tracking-[0.28em] text-muted">0{index + 1}</p>
                 <h3 className="mt-3 font-serif text-3xl tracking-[-0.03em]">{t(`steps.${index}.title`)}</h3>
                 <p className="mt-4 text-[15px] leading-7 text-muted">{t(`steps.${index}.text`, hours)}</p>
@@ -102,11 +112,11 @@ export default async function AboutPage({ params }: AboutPageProps) {
 
       <section className="border-t border-line bg-paper-2/60">
         <div className="mx-auto max-w-[1500px] px-5 py-16 md:px-10 md:py-24">
-          <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("faqKicker")}</p>
-          <h2 className="mt-4 font-serif text-4xl tracking-[-0.03em] md:text-5xl">{t("faqTitle")}</h2>
+          <p data-reveal="" className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("faqKicker")}</p>
+          <h2 data-reveal="" className="mt-4 font-serif text-4xl tracking-[-0.03em] md:text-5xl">{t("faqTitle")}</h2>
           <dl className="mt-10 max-w-3xl divide-y divide-line border-y border-line">
             {indexes.map((index) => (
-              <div key={index} className="py-6">
+              <div key={index} data-reveal="" style={{ animationDelay: `${index * 70}ms` }} className="py-6">
                 <dt className="font-serif text-2xl tracking-[-0.03em]">{t(`faq.${index}.q`)}</dt>
                 <dd className="mt-3 max-w-2xl text-[15px] leading-7 text-muted">
                   {t(`faq.${index}.a`, hours)}
@@ -117,7 +127,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-[1500px] items-center gap-12 px-5 py-16 md:grid-cols-2 md:px-10 md:py-24">
+      <section data-reveal="" className="mx-auto grid max-w-[1500px] items-center gap-12 px-5 py-16 md:grid-cols-2 md:px-10 md:py-24">
         <div>
           <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("arrivalKicker")}</p>
           <h2 className="mt-4 font-serif text-4xl leading-[0.95] tracking-[-0.03em] md:text-5xl">

@@ -50,11 +50,11 @@ export default async function GiftPage({ params }: GiftPageProps) {
     <main id="content">
       <section className="mx-auto grid max-w-[1500px] items-center gap-12 px-5 py-16 md:grid-cols-2 md:px-10 md:py-24">
         <div>
-          <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("kicker")}</p>
-          <h1 className="mt-4 font-serif text-5xl leading-[0.92] tracking-[-0.04em] md:text-7xl">
+          <p className="rise text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("kicker")}</p>
+          <h1 className="rise rise-d1 mt-4 font-serif text-5xl leading-[0.92] tracking-[-0.04em] md:text-7xl">
             {t("heading")}
           </h1>
-          <p className="mt-6 max-w-md text-[15px] leading-7 text-muted">{t("intro")}</p>
+          <p className="rise rise-d2 mt-6 max-w-md text-[15px] leading-7 text-muted">{t("intro")}</p>
         </div>
         <Image
           src="/insta-media/pics/IMG_0935.JPG.jpeg"
@@ -63,14 +63,19 @@ export default async function GiftPage({ params }: GiftPageProps) {
           height={2096}
           preload
           sizes="(max-width: 768px) 100vw, 40vw"
-          className="mx-auto h-auto w-full max-w-md"
+          className="settle mx-auto h-auto w-full max-w-md"
         />
       </section>
 
       <section className="border-t border-line">
         <div className="mx-auto grid max-w-[1500px] gap-12 px-5 py-16 md:grid-cols-3 md:px-10 md:py-24">
           {indexes.map((index) => (
-            <article key={index} className="border-t border-ink pt-5">
+            <article
+              key={index}
+              data-reveal=""
+              className="border-t border-ink pt-5"
+              style={{ animationDelay: `${index * 80}ms` }}
+            >
               <p className="text-[10px] uppercase tracking-[0.28em] text-muted">0{index + 1}</p>
               <h2 className="mt-3 font-serif text-3xl tracking-[-0.03em]">{t(`steps.${index}.title`)}</h2>
               <p className="mt-4 text-[15px] leading-7 text-muted">{t(`steps.${index}.text`)}</p>
@@ -80,7 +85,7 @@ export default async function GiftPage({ params }: GiftPageProps) {
       </section>
 
       <section className="border-t border-line">
-        <div className="mx-auto max-w-[1500px] px-5 py-16 md:px-10 md:py-24">
+        <div data-reveal="" className="mx-auto max-w-[1500px] px-5 py-16 md:px-10 md:py-24">
           <p className="max-w-md text-[15px] leading-7">{t("note")}</p>
           <a
             href={whatsappLink(t("message"))}

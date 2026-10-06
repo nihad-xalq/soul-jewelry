@@ -81,7 +81,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   return (
     <main id="content" className="mx-auto max-w-[1500px] px-5 py-10 md:px-10 md:py-16">
-      <p className="text-[11px] uppercase tracking-[0.22em] text-muted">
+      <p className="rise text-[11px] uppercase tracking-[0.22em] text-muted">
         <Link href="/products" className="hover:text-ink">
           {t("shop")}
         </Link>
@@ -91,7 +91,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
       <div className="mt-8 grid items-start gap-10 lg:grid-cols-2 lg:gap-16">
         <ProductGallery images={product.images} alts={altsFor(catalog, product)} />
-        <div className="lg:py-6">
+        <div className="rise rise-d2 lg:py-6">
           <p className="text-[10px] uppercase tracking-[0.28em] text-muted">
             {shop(`collections.${product.collection}`)}
             <span className="mx-2" aria-hidden="true">
@@ -131,10 +131,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
       {paired.length > 0 ? (
         <section className="mt-20 border-t border-line pt-12">
-          <h2 className="font-serif text-4xl tracking-[-0.03em]">{t("wearWith")}</h2>
+          <h2 data-reveal="" className="font-serif text-4xl tracking-[-0.03em]">{t("wearWith")}</h2>
           <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {paired.map((item) => (
-              <ProductCard key={item.slug} product={item} />
+            {paired.map((item, index) => (
+              <ProductCard key={item.slug} product={item} delay={index * 60} />
             ))}
           </div>
         </section>
@@ -142,10 +142,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
       {related.length > 0 ? (
         <section className="mt-20 border-t border-line pt-12">
-          <h2 className="font-serif text-4xl tracking-[-0.03em]">{t("alongside")}</h2>
+          <h2 data-reveal="" className="font-serif text-4xl tracking-[-0.03em]">{t("alongside")}</h2>
           <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {related.map((item) => (
-              <ProductCard key={item.slug} product={item} />
+            {related.map((item, index) => (
+              <ProductCard key={item.slug} product={item} delay={index * 60} />
             ))}
           </div>
         </section>

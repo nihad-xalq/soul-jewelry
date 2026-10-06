@@ -97,7 +97,7 @@ export function FilmReel() {
 
   return (
     <section id="film" aria-labelledby="film-heading" className="scroll-mt-24 py-24 md:py-32">
-      <div className="mx-auto flex max-w-[1500px] items-end justify-between gap-6 px-5 md:px-10">
+      <div data-reveal="" className="mx-auto flex max-w-[1500px] items-end justify-between gap-6 px-5 md:px-10">
         <div>
           <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("kicker")}</p>
           <h2
@@ -134,9 +134,11 @@ export function FilmReel() {
         aria-label={t("label")}
         className="no-scrollbar mt-12 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-2 md:px-10"
       >
-        {clips.map((clip) => (
+        {clips.map((clip, index) => (
           <figure
             key={clip.src}
+            data-reveal=""
+            style={{ animationDelay: `${index * 70}ms` }}
             className={`snap-start shrink-0 ${
               clip.orientation === "portrait"
                 ? "w-[72vw] sm:w-[40vw] lg:w-[22vw]"

@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Outfit } from "next/font/google";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { PageEnter } from "@/components/page-enter";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { routing } from "@/i18n/routing";
@@ -66,7 +67,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       <body className="min-h-full bg-paper font-sans text-ink">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <SiteHeader />
-          {children}
+          <PageEnter>{children}</PageEnter>
           <SiteFooter />
           <a
             href={whatsappLink("Salam, Soul Jewelry.")}

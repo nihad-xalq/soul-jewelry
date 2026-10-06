@@ -21,14 +21,19 @@ export default async function CarePage({ params }: CarePageProps) {
 
   return (
     <main id="content" className="mx-auto max-w-[1500px] px-5 py-16 md:px-10 md:py-24">
-      <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("kicker")}</p>
-      <h1 className="mt-4 max-w-3xl font-serif text-5xl leading-[0.92] tracking-[-0.04em] md:text-7xl">
+      <p className="rise text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("kicker")}</p>
+      <h1 className="rise rise-d1 mt-4 max-w-3xl font-serif text-5xl leading-[0.92] tracking-[-0.04em] md:text-7xl">
         {t("heading")}
       </h1>
-      <p className="mt-6 max-w-md text-[15px] leading-7 text-muted">{t("intro")}</p>
+      <p className="rise rise-d2 mt-6 max-w-md text-[15px] leading-7 text-muted">{t("intro")}</p>
       <ol className="mt-14 max-w-3xl divide-y divide-line border-y border-line">
         {indexes.map((index) => (
-          <li key={index} className="grid gap-3 py-6 sm:grid-cols-[8rem_1fr] sm:items-baseline">
+          <li
+            key={index}
+            data-reveal=""
+            className="grid gap-3 py-6 sm:grid-cols-[8rem_1fr] sm:items-baseline"
+            style={{ animationDelay: `${180 + index * 70}ms` }}
+          >
             <p className="text-[10px] uppercase tracking-[0.28em] text-muted">0{index + 1}</p>
             <div>
               <h2 className="font-serif text-3xl tracking-[-0.03em]">{t(`steps.${index}.title`)}</h2>
@@ -38,7 +43,7 @@ export default async function CarePage({ params }: CarePageProps) {
         ))}
       </ol>
 
-      <section id="hoop" className="mt-20 max-w-3xl scroll-mt-[calc(var(--header-h)+1.5rem)] border-t border-line pt-16">
+      <section id="hoop" data-reveal="" className="mt-20 max-w-3xl scroll-mt-[calc(var(--header-h)+1.5rem)] border-t border-line pt-16">
         <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("hoopKicker")}</p>
         <h2 className="mt-4 font-serif text-4xl leading-[0.92] tracking-[-0.04em] md:text-5xl">
           {t("hoopHeading")}
@@ -57,7 +62,7 @@ export default async function CarePage({ params }: CarePageProps) {
         </ol>
       </section>
 
-      <Link href="/products" className="mt-10 inline-block text-[11px] uppercase tracking-[0.24em]">
+      <Link href="/products" data-reveal="" className="mt-10 inline-block text-[11px] uppercase tracking-[0.24em]">
         {t("back")}
       </Link>
     </main>

@@ -5,12 +5,17 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import type { Product } from "@/lib/products";
 
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({ product, delay = 0 }: { product: Product; delay?: number }) {
   const t = useTranslations("catalog");
   const shop = useTranslations("shop");
 
   return (
-    <Link href={`/products/${product.slug}`} className="group block">
+    <Link
+      href={`/products/${product.slug}`}
+      data-reveal=""
+      className="group block"
+      style={{ animationDelay: `${delay}ms` }}
+    >
       <div className="overflow-hidden bg-paper-2">
         <Image
           src={product.image}

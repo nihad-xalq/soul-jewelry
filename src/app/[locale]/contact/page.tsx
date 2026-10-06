@@ -21,11 +21,11 @@ export default async function ContactPage({ params }: ContactPageProps) {
   return (
     <main id="content" className="mx-auto grid max-w-[1500px] gap-14 px-5 py-16 md:grid-cols-2 md:px-10 md:py-24">
       <div>
-        <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("kicker")}</p>
-        <h1 className="mt-4 font-serif text-5xl leading-[0.92] tracking-[-0.04em] md:text-7xl">
+        <p className="rise text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("kicker")}</p>
+        <h1 className="rise rise-d1 mt-4 font-serif text-5xl leading-[0.92] tracking-[-0.04em] md:text-7xl">
           {t("heading")}
         </h1>
-        <p className="mt-6 max-w-md text-[15px] leading-7 text-muted">{t("intro")}</p>
+        <p className="rise rise-d2 mt-6 max-w-md text-[15px] leading-7 text-muted">{t("intro")}</p>
         <a
           href={whatsappLink("Salam, Soul Jewelry.")}
           target="_blank"

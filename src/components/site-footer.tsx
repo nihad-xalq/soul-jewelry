@@ -24,7 +24,7 @@ export async function SiteFooter() {
   const columns = [links.slice(0, midpoint), links.slice(midpoint)];
 
   return (
-    <footer className="border-t border-line">
+    <footer data-reveal="" className="border-t border-line">
       <div className="mx-auto grid max-w-[1500px] gap-10 px-5 py-12 md:grid-cols-3 md:px-10">
         <div>
           <p className="font-serif text-3xl tracking-[-0.03em]">Soul</p>

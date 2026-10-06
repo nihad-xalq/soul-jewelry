@@ -13,7 +13,7 @@ export function ProductGallery({ images, alts }: { images: ProductImage[]; alts:
 
   return (
     <div>
-      <div className="bg-paper-2">
+      <div className="settle bg-paper-2" key={current.src}>
         <Image
           src={current.src}
           alt={alt}

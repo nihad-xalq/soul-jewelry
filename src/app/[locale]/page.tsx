@@ -63,17 +63,17 @@ export default async function Home({ params }: HomePageProps) {
       <section className="flex flex-col md:grid md:h-[calc(100svh-var(--header-h))] md:grid-cols-12">
         <div className="order-2 flex flex-col justify-end px-5 py-12 sm:px-10 md:order-1 md:col-span-5 md:justify-center md:px-10 md:py-10 lg:px-12 xl:px-16">
           <p className="rise text-[0.68rem] uppercase tracking-[0.34em] text-muted">{t("kicker")}</p>
-          <h1 className="rise mt-5 font-serif text-[16vw] leading-[0.86] tracking-[-0.04em] sm:text-6xl md:text-[3.2rem] lg:text-[4.8rem] xl:text-[5.8rem] [animation-delay:80ms]">
+          <h1 className="rise rise-d1 mt-5 font-serif text-[16vw] leading-[0.86] tracking-[-0.04em] sm:text-6xl md:text-[3.2rem] lg:text-[4.8rem] xl:text-[5.8rem]">
             {leadA}
             <br />
             {leadB}
             <br />
             <em className="italic">{t("headlineEm")}</em>
           </h1>
-          <p className="rise mt-6 max-w-sm text-[15px] leading-7 text-muted [animation-delay:160ms]">
+          <p className="rise rise-d2 mt-6 max-w-sm text-[15px] leading-7 text-muted">
             {t("intro", { count: products.length })}
           </p>
-          <div className="rise mt-8 flex flex-wrap items-center gap-x-6 gap-y-4 [animation-delay:240ms]">
+          <div className="rise rise-d3 mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
             <Link
               href="/products"
               className="bg-ink px-6 py-3 text-[11px] uppercase tracking-[0.28em] text-paper"
@@ -90,7 +90,7 @@ export default async function Home({ params }: HomePageProps) {
             </a>
           </div>
         </div>
-        <div className="relative order-1 h-[68svh] md:order-2 md:col-span-7 md:h-full">
+        <div className="settle relative order-1 h-[68svh] md:order-2 md:col-span-7 md:h-full">
           <Image
             src="/insta-media/pics/IMG_0929.JPG.jpeg"
             alt={t("heroAlt")}
@@ -106,7 +106,7 @@ export default async function Home({ params }: HomePageProps) {
         </div>
       </section>
 
-      <div className="marquee overflow-hidden border-y border-line py-4" aria-hidden="true">
+      <div data-reveal="" className="marquee overflow-hidden border-y border-line py-4" aria-hidden="true">
         <div className="marquee-track flex w-max">
           {[0, 1].map((copy) => (
             <div key={copy} className="flex items-center">
@@ -125,7 +125,7 @@ export default async function Home({ params }: HomePageProps) {
       </div>
 
       <section className="mx-auto max-w-[1500px] px-5 py-16 md:px-10 md:py-20">
-        <div className="flex items-end justify-between gap-6">
+        <div data-reveal="" className="flex items-end justify-between gap-6">
           <h2 className="font-serif text-4xl leading-none tracking-[-0.03em] md:text-5xl">
             {t("startTitle")}
           </h2>
@@ -134,8 +134,14 @@ export default async function Home({ params }: HomePageProps) {
           </Link>
         </div>
         <div className="mt-8 grid gap-4 md:grid-cols-3">
-          {tiles.map((category) => (
-            <Link key={category.href} href={category.href} className="group relative block min-h-72 overflow-hidden">
+          {tiles.map((category, index) => (
+            <Link
+              key={category.href}
+              href={category.href}
+              data-reveal=""
+              style={{ animationDelay: `${index * 80}ms` }}
+              className="group relative block min-h-72 overflow-hidden"
+            >
               <Image
                 src={category.image}
                 alt={t(category.alt)}
@@ -157,7 +163,7 @@ export default async function Home({ params }: HomePageProps) {
 
       <section className="border-t border-line">
         <div className="mx-auto max-w-[1500px] px-5 py-16 md:px-10 md:py-20">
-          <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div data-reveal="" className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("now")}</p>
               <h2 className="mt-3 font-serif text-5xl leading-[0.92] tracking-[-0.03em] md:text-6xl">
@@ -167,14 +173,14 @@ export default async function Home({ params }: HomePageProps) {
             <p className="max-w-sm text-[15px] leading-7 text-muted">{t("editCopy")}</p>
           </div>
           <div className="mt-12 grid gap-x-6 gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
-            {products.map((product) => (
-              <ProductCard key={product.slug} product={product} />
+            {products.map((product, index) => (
+              <ProductCard key={product.slug} product={product} delay={index * 50} />
             ))}
           </div>
         </div>
       </section>
 
-      <section className="grid bg-[#161513] text-[#f4f1ec] md:grid-cols-2">
+      <section data-reveal="" className="grid bg-[#161513] text-[#f4f1ec] md:grid-cols-2">
         <div className="flex flex-col justify-between px-5 py-16 sm:px-10 md:px-14 md:py-20">
           <p className="text-[0.68rem] uppercase tracking-[0.32em] text-[#f4f1ec]/55">{t("aboutKicker")}</p>
           <div className="py-12">
@@ -203,7 +209,7 @@ export default async function Home({ params }: HomePageProps) {
 
       <section className="border-t border-line">
         <div className="mx-auto grid max-w-[1500px] gap-10 px-5 py-16 md:grid-cols-2 md:items-center md:px-10 md:py-20">
-          <div>
+          <div data-reveal="">
             <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">{t("find")}</p>
             <h2 className="mt-3 font-serif text-5xl leading-[0.92] tracking-[-0.03em] md:text-6xl">
               {t("findTitle")}
@@ -236,12 +242,14 @@ export default async function Home({ params }: HomePageProps) {
                 ["/insta-media/pics/IMG_0930.JPG.jpeg", "mosaicRings"],
                 ["/insta-media/pics/IMG_0928.JPG.jpeg", "mosaicCubic"],
               ] as const
-            ).map(([src, alt]) => (
+            ).map(([src, alt], index) => (
               <a
                 key={src}
                 href={instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-reveal=""
+                style={{ animationDelay: `${index * 70}ms` }}
                 className="relative block aspect-[4/5] overflow-hidden bg-paper-2"
               >
                 <Image src={src} alt={t(alt)} fill sizes="25vw" className="object-cover" />

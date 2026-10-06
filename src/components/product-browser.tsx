@@ -114,13 +114,13 @@ export function ProductBrowser() {
     <div className="mx-auto max-w-[1500px] px-5 py-12 md:px-10 md:py-16">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="text-[0.68rem] uppercase tracking-[0.32em] text-muted">
+          <p className="rise text-[0.68rem] uppercase tracking-[0.32em] text-muted">
             {t("kicker")}
           </p>
-          <h1 className="mt-3 font-serif text-5xl leading-[0.92] tracking-[-0.03em] md:text-7xl">
+          <h1 className="rise rise-d1 mt-3 font-serif text-5xl leading-[0.92] tracking-[-0.03em] md:text-7xl">
             {t("heading")}
           </h1>
-          <p className="mt-4 max-w-md text-[15px] leading-7 text-muted">
+          <p className="rise rise-d2 mt-4 max-w-md text-[15px] leading-7 text-muted">
             {t("intro")}
           </p>
         </div>
@@ -306,8 +306,8 @@ export function ProductBrowser() {
             </div>
           ) : (
             <div className="mt-6 grid gap-x-6 gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
-              {result.products.map((product) => (
-                <ProductCard key={product.slug} product={product} />
+              {result.products.map((product, index) => (
+                <ProductCard key={product.slug} product={product} delay={index * 45} />
               ))}
             </div>
           )}

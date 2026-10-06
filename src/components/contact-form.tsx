@@ -27,6 +27,7 @@ export function ContactForm() {
 
   return (
     <form
+      data-reveal=""
       className="grid gap-5"
       onSubmit={(event) => {
         event.preventDefault();
