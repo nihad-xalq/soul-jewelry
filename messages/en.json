@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "title": "Soul Jewelry — Made to stand out",
+    "template": "%s — Soul Jewelry",
+    "description": "Sculptural silver jewelry for every day. Dalğa, Cubic, and the Aura collection. Soul Jewelry, 2026."
+  },
+  "nav": {
+    "shop": "Shop",
+    "gift": "Gift",
+    "care": "Care",
+    "delivery": "Delivery",
+    "about": "About",
+    "contact": "Contact",
+    "home": "Home"
+  },
+  "header": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "primary": "Primary",
+    "mobile": "Mobile",
+    "home": "Soul Jewelry, home",
+    "tagline": "Made to stand out.",
+    "language": "Language"
+  },
+  "footer": {
+    "label": "Footer",
+    "tagline": "Made to stand out."
+  },
+  "home": {
+    "kicker": "Jewelry 2026",
+    "headlineLead": "Made to\nstand",
+    "headlineEm": "out.",
+    "intro": "Sculptural silver for the ear and the hand. {count} pieces in the shop, ordered on WhatsApp.",
+    "shopCta": "See the shop",
+    "look": "Look 01",
+    "silver": "Silver",
+    "heroAlt": "Close studies of a model in black wearing a sculptural silver ring and earring.",
+    "tickerStand": "Made to stand out",
+    "startTitle": "Start with a form.",
+    "allPieces": "All pieces",
+    "earringsNote": "For the ear",
+    "ringsNote": "For the hand",
+    "auraNote": "Collection",
+    "earringsAlt": "Silver wave earrings from Dalğa.",
+    "ringsAlt": "The Dalğa silver ring.",
+    "auraAlt": "Aura collection silver studs.",
+    "now": "Now in the house",
+    "editTitle": "The shop.",
+    "editCopy": "Wave, cube, a molten stud, and a few pieces that sit beside them. Filter the full list by metal and collection.",
+    "aboutKicker": "The house",
+    "aboutTitle": "Shaped to be noticed. Made to be worn.",
+    "aboutCopy": "A bright finish, a form that lasts, and a line kept minimal. Every piece leaves in a dark box, a cloth pouch, and a card.",
+    "aboutCta": "About Soul",
+    "bandAlt": "A hand wearing a silver wave ring, with the Soul mark.",
+    "find": "Find us",
+    "findTitle": "Instagram, then WhatsApp.",
+    "findCopy": "New pieces land on {handle}. To order, or to ask a size, write on the WhatsApp line.",
+    "contactCta": "Contact page",
+    "mosaicPack": "Packaging in window light",
+    "mosaicHoop": "Tortoiseshell hoop earrings",
+    "mosaicRings": "Open silver rings on a hand",
+    "mosaicCubic": "Cubic silver hoops"
+  },
+  "film": {
+    "kicker": "Film",
+    "title": "In the hand.",
+    "copy": "Silent studies of the pieces as they move.",
+    "prev": "Prev",
+    "next": "Next",
+    "label": "Jewelry films",
+    "rings": "Rings",
+    "september": "21 September",
+    "ear": "Ear",
+    "drop": "Drop"
+  },
+  "shop": {
+    "title": "Shop",
+    "description": "Shop Soul Jewelry. Dalğa, Cubic, Aura, and studio pieces in silver. Order on WhatsApp.",
+    "loading": "Loading the shop…",
+    "kicker": "The shop",
+    "heading": "Pieces",
+    "intro": "Silver, and a few warmer notes. Prices are shared on WhatsApp.",
+    "search": "Search",
+    "searchPlaceholder": "Search by name",
+    "filters": "Filters",
+    "filter": "Filter",
+    "clear": "Clear",
+    "clearFilters": "Clear filters",
+    "sort": "Sort",
+    "metal": "Metal",
+    "collection": "Collection",
+    "all": "All",
+    "empty": "Nothing in this shop.",
+    "count": "{count, plural, one {# piece} other {# pieces}}",
+    "remove": "Remove {label}",
+    "categories": {
+      "earrings": "Earrings",
+      "rings": "Rings"
+    },
+    "metals": {
+      "silver": "Silver",
+      "gold-toned": "Gold-toned"
+    },
+    "collections": {
+      "dalga": "Dalğa",
+      "cubic": "Cubic",
+      "aura": "Aura",
+      "studio": "Studio"
+    },
+    "sorts": {
+      "featured": "Featured",
+      "name-asc": "Name A–Z",
+      "name-desc": "Name Z–A",
+      "newest": "Newest"
+    },
+    "availability": {
+      "ready": "Ready",
+      "ask": "Ask first"
+    }
+  },
+  "product": {
+    "missing": "Piece",
+    "shop": "Shop",
+    "metal": "Metal",
+    "size": "Size",
+    "collection": "Collection",
+    "price": "Price",
+    "priceValue": "On WhatsApp",
+    "askPrice": "Ask the price",
+    "askSize": "Ask the size",
+    "giftToggle": "As a gift",
+    "giftLine": "I want this as a gift.",
+    "care": "Silver care",
+    "careHoop": "Resin hoop care",
+    "priceMessage": "Salam, Soul Jewelry. I would like the price of {name}.\n{url}",
+    "sizeMessage": "Salam, Soul Jewelry. I would like to ask about the size of {name}.\n{url}",
+    "gallery": "Photos",
+    "photo": "Photo {index}",
+    "wearWith": "Wear it with",
+    "alongside": "Alongside it"
+  },
+  "about": {
+    "title": "About",
+    "description": "Soul Jewelry makes sculptural silver for every day. Bright, minimal, and made to be worn.",
+    "kicker": "The house",
+    "headline": "Made to stand out.",
+    "intro": "Soul is a jewelry house for pieces you actually wear. Sculptural silver, a few warmer hoops, and an order line that is simply WhatsApp.",
+    "heroAlt": "A model in black wearing a sculptural silver ring and earring.",
+    "notes": [
+      {
+        "title": "A bright finish",
+        "text": "Pieces are chosen for how they take the light — polished silver, and the occasional warmer metal."
+      },
+      {
+        "title": "A form that lasts",
+        "text": "One gesture, not a pile of them. A wave, a softened square, an edge that looks poured."
+      },
+      {
+        "title": "Worn, not saved",
+        "text": "Minimal on purpose, so a piece can stay on from the first hour of the day."
+      }
+    ],
+    "handAlt": "Hand with a silver wave ring and the Soul mark.",
+    "lineKicker": "The line",
+    "lineTitle": "Dalğa, Cubic, and Aura.",
+    "lineCopy": "Dalğa is the wave — a stud and an open ring. Cubic is the softened square hoop, 18 mm. Aura is a molten stud, a star redrawn as silver. Around them, a resin hoop and a few open bands.",
+    "shopCta": "See the shop",
+    "deliveryLink": "Delivery",
+    "orderKicker": "Ordering in Baku",
+    "orderTitle": "Write on WhatsApp. The rest stays in that chat.",
+    "steps": [
+      {
+        "title": "Write",
+        "text": "Send the piece, the size, or that it is a gift. The line is open every day, {from}–{to}."
+      },
+      {
+        "title": "Reply",
+        "text": "We answer in the same chat and confirm the piece, usually the same day."
+      },
+      {
+        "title": "Delivery",
+        "text": "Delivery goes to the six districts around the center, or to four metro stations, in about 2–3 days. The place is set in the chat. If it is a gift, say so — it leaves in a dark box, a cloth pouch, and a card."
+      }
+    ],
+    "faqKicker": "Questions",
+    "faqTitle": "Size, silver, and a reply.",
+    "faq": [
+      {
+        "q": "How does sizing work?",
+        "a": "Earrings are studs or hoops. Cubic is 18 mm. The Dalğa ring is one size and opens slightly. Open rings flex a little to the finger. If you are unsure of a finger size, ask on WhatsApp."
+      },
+      {
+        "q": "How do I care for the silver?",
+        "a": "Wipe it with a soft dry cloth. Keep perfume, cream, and water off it. Store it in the pouch when you are not wearing it."
+      },
+      {
+        "q": "How long does a reply take?",
+        "a": "We read the WhatsApp line every day, {from}–{to}. We usually write back the same day."
+      }
+    ],
+    "packAlt": "Soul Jewelry box, cloth pouch, and card in window light.",
+    "arrivalKicker": "The arrival",
+    "arrivalTitle": "It comes wrapped like a gift.",
+    "arrivalCopy": "A dark box, a cloth pouch, and a card that says the only line we needed. Orders are taken on WhatsApp {phone}, and new work is posted on {handle}."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Write to Soul Jewelry on WhatsApp +994 77 317 14 03 or on Instagram @souljewelry.az.",
+    "kicker": "WhatsApp line",
+    "heading": "Write to us.",
+    "intro": "Orders, sizes, and questions go to the WhatsApp line. The form below opens a chat with your note already written.",
+    "hoursLabel": "Reply hours",
+    "hours": "Every day, {from}–{to}",
+    "instagram": "Instagram",
+    "name": "Name",
+    "piece": "Piece",
+    "unsure": "Not sure yet",
+    "message": "Message",
+    "error": "Add your name and a short message.",
+    "submit": "Send on WhatsApp",
+    "notesLabel": "Ready notes",
+    "greeting": "Salam, Soul Jewelry.",
+    "nameLine": "Name: {name}",
+    "pieceLine": "Piece: {piece}",
+    "notes": {
+      "gift": "I want this as a gift.",
+      "size": "Which size?",
+      "available": "Is this still available?"
+    }
+  },
+  "gift": {
+    "title": "Gift",
+    "description": "A Soul piece leaves in a dark box, a cloth pouch, and a card. If it is a gift, say so on WhatsApp.",
+    "kicker": "A gift",
+    "heading": "It leaves as a gift.",
+    "intro": "A piece leaves the house in a dark box, a cloth pouch, and a card. If you are buying for someone else, send this page and say so on WhatsApp.",
+    "imageAlt": "Soul Jewelry box, cloth pouch, and card in window light.",
+    "steps": [
+      {
+        "title": "A dark box",
+        "text": "The piece sits inside. The opening is quiet."
+      },
+      {
+        "title": "A cloth pouch",
+        "text": "A soft pouch. When it is not being worn, it stays there."
+      },
+      {
+        "title": "A card",
+        "text": "A Soul card is in the box."
+      }
+    ],
+    "note": "If it is a gift, write that in the chat. The note and the address are arranged there.",
+    "cta": "Write on WhatsApp",
+    "message": "Salam, Soul Jewelry. I want this as a gift."
+  },
+  "care": {
+    "title": "Care",
+    "description": "Care for the silver: a soft dry cloth, no perfume, no water, back in the pouch.",
+    "kicker": "Silver",
+    "heading": "A short care.",
+    "intro": "These notes are for the silver pieces.",
+    "steps": [
+      {
+        "title": "A dry cloth",
+        "text": "Wipe it with a soft dry cloth."
+      },
+      {
+        "title": "No perfume",
+        "text": "Keep perfume and cream off the metal."
+      },
+      {
+        "title": "No water",
+        "text": "Do not wash it."
+      },
+      {
+        "title": "The pouch",
+        "text": "When you are not wearing it, put it back in the cloth pouch."
+      }
+    ],
+    "hoopKicker": "Resin",
+    "hoopHeading": "The warmer hoop.",
+    "hoopIntro": "These notes are for the resin hoop.",
+    "hoop": [
+      {
+        "title": "A dry cloth",
+        "text": "Wipe it with a soft dry cloth."
+      },
+      {
+        "title": "Off the wire",
+        "text": "Keep perfume off the wire."
+      },
+      {
+        "title": "No soaking",
+        "text": "Do not soak it."
+      },
+      {
+        "title": "The pouch",
+        "text": "When you are not wearing it, put it back in the pouch."
+      }
+    ],
+    "back": "Back to the shop"
+  },
+  "delivery": {
+    "title": "Delivery",
+    "description": "Delivery in Baku: six districts around the center, or four metro stations, in about 2–3 days.",
+    "kicker": "Baku",
+    "heading": "Delivery.",
+    "intro": "A piece goes to one of six districts around the center, or to one of these metro stations. About 2–3 days. Write the place on WhatsApp.",
+    "districtsLabel": "Districts",
+    "districts": ["Sabail", "Nasimi", "Yasamal", "Narimanov", "Nizami", "Khatai"],
+    "stationsLabel": "Metro",
+    "stations": ["28 May", "Gənclik", "Həzi Aslanov", "Elmlər Akademiyası"],
+    "timeLabel": "Timing",
+    "time": "About 2–3 days.",
+    "note": "Write the address or the station in the chat.",
+    "cta": "Write on WhatsApp",
+    "message": "Salam, Soul Jewelry. I am writing about delivery in Baku."
+  },
+  "notFound": {
+    "title": "This page is not in the shop.",
+    "back": "Back to the shop"
+  },
+  "catalog": {
+    "dalga-sirga": {
+      "name": "Dalğa earring",
+      "kind": "Wave earring",
+      "summary": "A silver stud shaped like a single wave.",
+      "description": "Dalğa sırğa is a polished silver stud with a soft, poured edge. Bright enough to catch the light, small enough to wear from morning through the late hours.",
+      "size": "Stud",
+      "alts": [
+        "Dalğa sırğa, silver wave studs, shown as a pair and worn on the ear.",
+        "Soul Jewelry box, cloth pouch, and card in window light."
+      ]
+    },
+    "cubic-sirga": {
+      "name": "Cubic earring",
+      "kind": "Square hoop",
+      "summary": "A softened square hoop in silver, 18 mm.",
+      "description": "Cubic sırğa is a square hoop with rounded corners and a high polish. Silver, 18 mm, made to sit close and stay on.",
+      "size": "18 mm",
+      "alts": [
+        "Cubic sırğa, a pair of silver square hoop earrings, 18 millimeters.",
+        "Soul Jewelry box, cloth pouch, and card in window light."
+      ]
+    },
+    "dalga-uzuk": {
+      "name": "Dalğa ring",
+      "kind": "Wave ring",
+      "summary": "An open silver ring with a wave along the finger.",
+      "description": "Dalğa üzük is an open band in silver, one size, with a sculptural wave across the top. It adjusts slightly and is meant to be worn every day.",
+      "size": "One size",
+      "alts": [
+        "Dalğa üzük, an open sculptural silver ring, one size.",
+        "A hand wearing a silver wave ring, with the Soul mark."
+      ]
+    },
+    "aura-sirga": {
+      "name": "Aura earring",
+      "kind": "Aura stud",
+      "summary": "A molten silver stud from the Aura collection.",
+      "description": "Aura draws a melted edge into a small silver stud. Irregular, luminous, and quiet once it is on the ear. Part of the Aura collection.",
+      "size": "Stud",
+      "alts": [
+        "Aura sırğa, irregular molten silver studs, shown as a pair and worn.",
+        "Soul Jewelry box, cloth pouch, and card in window light."
+      ]
+    },
+    "resin-hoop": {
+      "name": "Resin hoop",
+      "kind": "Tortoiseshell hoop",
+      "summary": "A tortoiseshell resin hoop held in gold-toned wire.",
+      "description": "A warm hoop: translucent tortoiseshell resin, wrapped with gold-toned metal. A darker note beside the silver pieces.",
+      "size": "Hoop",
+      "alts": [
+        "A pair of tortoiseshell resin hoop earrings with gold-toned wire.",
+        "Tortoiseshell hoop earrings worn."
+      ]
+    },
+    "open-ring": {
+      "name": "Open ring",
+      "kind": "Stone band",
+      "summary": "An open silver band set with a pale stone.",
+      "description": "An open silver ring with a pale stone, slightly uneven on purpose. Worn alone or stacked with a second band.",
+      "size": "Open",
+      "alts": [
+        "Open silver rings with pale stones, stacked on a hand.",
+        "Soul Jewelry box, cloth pouch, and card in window light."
+      ]
+    },
+    "dome-ring": {
+      "name": "Dome ring",
+      "kind": "Sculptural dome",
+      "summary": "A high, polished silver dome for the finger.",
+      "description": "A solid silver dome with a mirror polish. It reads as one gesture on the hand — round, bright, and hard to miss.",
+      "size": "Statement",
+      "alts": [
+        "A polished silver dome ring worn on the hand, with a matching earring.",
+        "Soul Jewelry box, cloth pouch, and card in window light."
+      ]
+    }
+  }
+}

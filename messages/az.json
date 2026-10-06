@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "title": "Soul Jewelry — Fərqlənmək üçün",
+    "template": "%s — Soul Jewelry",
+    "description": "Hər gün üçün heykəltəraşlıq gümüşü. Dalğa, Cubic və Aura. Soul Jewelry, 2026."
+  },
+  "nav": {
+    "shop": "Mağaza",
+    "gift": "Hədiyyə",
+    "care": "Qulluq",
+    "delivery": "Çatdırılma",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə",
+    "home": "Ana səhifə"
+  },
+  "header": {
+    "skip": "Məzmuna keç",
+    "menu": "Menyu",
+    "close": "Bağla",
+    "primary": "Əsas",
+    "mobile": "Mobil",
+    "home": "Soul Jewelry, ana səhifə",
+    "tagline": "Fərqlənmək üçün.",
+    "language": "Dil"
+  },
+  "footer": {
+    "label": "Altbilgi",
+    "tagline": "Fərqlənmək üçün."
+  },
+  "home": {
+    "kicker": "Zərgərlik 2026",
+    "headlineLead": "Fərqlənmək\nüçün",
+    "headlineEm": "yaradılıb.",
+    "intro": "Qulaq və əl üçün heykəltəraşlıq gümüşü. Seçimdə {count} parça var, sifariş WhatsApp-ladır.",
+    "shopCta": "Seçimə bax",
+    "look": "Görünüş 01",
+    "silver": "Gümüş",
+    "heroAlt": "Qara geyimli modeldə heykəltəraşlıq gümüş üzük və sırğa.",
+    "tickerStand": "Fərqlənmək üçün",
+    "startTitle": "Formadan başla.",
+    "allPieces": "Bütün parçalar",
+    "earringsNote": "Qulaq üçün",
+    "ringsNote": "Əl üçün",
+    "auraNote": "Kolleksiya",
+    "earringsAlt": "Dalğa seçimindən gümüş dalğa sırğaları.",
+    "ringsAlt": "Dalğa gümüş üzüyü.",
+    "auraAlt": "Aura kolleksiyasının gümüş sırğaları.",
+    "now": "İndi evdə",
+    "editTitle": "Seçim.",
+    "editCopy": "Dalğa, kub, əridilmiş sırğa və onların yanındakı bir neçə parça. Tam siyahını metal və kolleksiyaya görə süzün.",
+    "aboutKicker": "Ev",
+    "aboutTitle": "Nəzərə çarpması üçün formalaşıb. Taxılması üçün hazırlanıb.",
+    "aboutCopy": "Parlaq bitiş, qalan forma və qısa tutulan xətt. Hər parça tünd qutu, parça kisə və kartla çıxır.",
+    "aboutCta": "Soul haqqında",
+    "bandAlt": "Əldə gümüş dalğa üzük və Soul işarəsi.",
+    "find": "Bizi tapın",
+    "findTitle": "Əvvəl Instagram, sonra WhatsApp.",
+    "findCopy": "Yeni parçalar {handle} səhifəsində görünür. Sifariş və ölçü üçün WhatsApp xəttinə yazın.",
+    "contactCta": "Əlaqə səhifəsi",
+    "mosaicPack": "Pəncərə işığında qablaşdırma",
+    "mosaicHoop": "Tısbağa qabığı rəngli halqa sırğalar",
+    "mosaicRings": "Əldə açıq gümüş üzüklər",
+    "mosaicCubic": "Cubic gümüş halqalar"
+  },
+  "film": {
+    "kicker": "Film",
+    "title": "Əldə.",
+    "copy": "Parçaların hərəkətdə səssiz etüdləri.",
+    "prev": "Əvvəl",
+    "next": "Sonra",
+    "label": "Zərgərlik filmləri",
+    "rings": "Üzüklər",
+    "september": "21 sentyabr",
+    "ear": "Qulaq",
+    "drop": "Sallanma"
+  },
+  "shop": {
+    "title": "Mağaza",
+    "description": "Soul Jewelry. Dalğa, Cubic, Aura və studiya parçaları. Sifariş WhatsApp-ladır.",
+    "loading": "Seçim yüklənir…",
+    "kicker": "Seçim",
+    "heading": "Parçalar",
+    "intro": "Gümüş və bir neçə isti not. Qiymətlər WhatsApp-da deyilir.",
+    "search": "Axtar",
+    "searchPlaceholder": "Ad ilə axtar",
+    "filters": "Filtrlər",
+    "filter": "Filtr",
+    "clear": "Təmizlə",
+    "clearFilters": "Filtrləri təmizlə",
+    "sort": "Sıra",
+    "metal": "Metal",
+    "collection": "Kolleksiya",
+    "all": "Hamısı",
+    "empty": "Bu seçimdə heç nə yoxdur.",
+    "count": "{count, plural, one {# parça} other {# parça}}",
+    "remove": "{label} filtrini sil",
+    "categories": {
+      "earrings": "Sırğalar",
+      "rings": "Üzüklər"
+    },
+    "metals": {
+      "silver": "Gümüş",
+      "gold-toned": "Qızılı ton"
+    },
+    "collections": {
+      "dalga": "Dalğa",
+      "cubic": "Cubic",
+      "aura": "Aura",
+      "studio": "Studiya"
+    },
+    "sorts": {
+      "featured": "Seçilmiş",
+      "name-asc": "Ad A–Z",
+      "name-desc": "Ad Z–A",
+      "newest": "Ən yeni"
+    },
+    "availability": {
+      "ready": "Əldə var",
+      "ask": "Əvvəlcə soruşun"
+    }
+  },
+  "product": {
+    "missing": "Parça",
+    "shop": "Mağaza",
+    "metal": "Metal",
+    "size": "Ölçü",
+    "collection": "Kolleksiya",
+    "price": "Qiymət",
+    "priceValue": "WhatsApp-da",
+    "askPrice": "Qiyməti soruş",
+    "askSize": "Ölçünü soruş",
+    "giftToggle": "Hədiyyə kimi",
+    "giftLine": "Bunu hədiyyə kimi istəyirəm.",
+    "care": "Gümüşə qulluq",
+    "careHoop": "Qatran halqaya qulluq",
+    "priceMessage": "Salam, Soul Jewelry. {name} üçün qiyməti öyrənmək istəyirəm.\n{url}",
+    "sizeMessage": "Salam, Soul Jewelry. {name} üçün ölçü haqqında soruşmaq istəyirəm.\n{url}",
+    "gallery": "Şəkillər",
+    "photo": "Şəkil {index}",
+    "wearWith": "Birlikdə taxın",
+    "alongside": "Yanında"
+  },
+  "about": {
+    "title": "Haqqımızda",
+    "description": "Soul Jewelry hər gün üçün heykəltəraşlıq gümüşü hazırlayır. Parlaq, minimal və taxmaq üçün.",
+    "kicker": "Ev",
+    "headline": "Fərqlənmək üçün.",
+    "intro": "Soul taxılan parçalar üçün bir zərgərlik evidir. Heykəltəraşlıq gümüşü, bir neçə isti halqa və sadəcə WhatsApp olan sifariş xətti.",
+    "heroAlt": "Qara geyimli modeldə heykəltəraşlıq gümüş üzük və sırğa.",
+    "notes": [
+      {
+        "title": "Parlaq bitiş",
+        "text": "Parçalar işığı necə tutmasına görə seçilir — cilalanmış gümüş və arabir daha isti metal."
+      },
+      {
+        "title": "Qalan forma",
+        "text": "Bir jest, bir yığın yox. Dalğa, yumşaldılmış kvadrat, tökülmüş kimi görünən kənar."
+      },
+      {
+        "title": "Saxlamaq üçün yox, taxmaq üçün",
+        "text": "Qəsdən minimaldır ki, parça günün ilk saatından üzərində qala bilsin."
+      }
+    ],
+    "handAlt": "Gümüş dalğa üzük taxılmış əl və Soul işarəsi.",
+    "lineKicker": "Xətt",
+    "lineTitle": "Dalğa, Cubic və Aura.",
+    "lineCopy": "Dalğa dalğadır — bir sırğa və açıq üzük. Cubic yumşaldılmış kvadrat halqadır, 18 mm. Aura əridilmiş sırğadır, gümüşə çəkilmiş ulduz. Ətrafında qatran halqa və bir neçə açıq üzük var.",
+    "shopCta": "Seçimə bax",
+    "deliveryLink": "Çatdırılma",
+    "orderKicker": "Bakıda sifariş",
+    "orderTitle": "WhatsApp-da yazın. Qalanı eyni söhbətdədir.",
+    "steps": [
+      {
+        "title": "Yazın",
+        "text": "Parçanı, ölçünü və ya hədiyyə olduğunu bu saatlarda xəttə yazın: hər gün {from}–{to}."
+      },
+      {
+        "title": "Cavab",
+        "text": "Cavab eyni söhbətdə gəlir. Parçanı təsdiqləyirik, adətən həmin gün."
+      },
+      {
+        "title": "Çatdırılma",
+        "text": "Çatdırılma mərkəzin ətrafındakı altı rayona və dörd metro stansiyasına gedir, təxminən 2–3 gün. Yeri söhbətdə yazırıq. Hədiyyədirsə, deyin — tünd qutu, parça kisə və kartla hazırlanır."
+      }
+    ],
+    "faqKicker": "Suallar",
+    "faqTitle": "Ölçü, gümüş və cavab.",
+    "faq": [
+      {
+        "q": "Ölçü necədir?",
+        "a": "Sırğalar kiçik sırğa və ya halqadır. Cubic 18 mm-dir. Dalğa üzük bir ölçülüdür və bir az açılır. Açıq üzüklər barmağa yüngülcə uyğunlaşır. Barmaq ölçüsünə əmin deyilsinizsə, WhatsApp-da soruşun."
+      },
+      {
+        "q": "Gümüşə necə qulluq etməli?",
+        "a": "Yumşaq quru parça ilə silin. Ətir, krem və sudan uzaq saxlayın. Taxmayanda kisəsində saxlayın."
+      },
+      {
+        "q": "Cavab nə vaxt gəlir?",
+        "a": "WhatsApp xəttinə hər gün {from}–{to} arası baxırıq. Adətən həmin gün yazırıq."
+      }
+    ],
+    "packAlt": "Soul qutusu, parça kisə və kart, pəncərə işığında.",
+    "arrivalKicker": "Gəlişi",
+    "arrivalTitle": "Hədiyyə kimi bükülüb gəlir.",
+    "arrivalCopy": "Tünd qutu, parça kisə və lazım olan tək cümlənin yazıldığı kart. Sifarişlər WhatsApp {phone} nömrəsinə qəbul olunur, yeni işlər {handle} səhifəsində paylaşılır."
+  },
+  "contact": {
+    "title": "Əlaqə",
+    "description": "Soul Jewelry-ə WhatsApp +994 77 317 14 03 və ya Instagram @souljewelry.az ilə yazın.",
+    "kicker": "WhatsApp xətti",
+    "heading": "Bizə yazın.",
+    "intro": "Sifariş, ölçü və suallar WhatsApp xəttinə gedir. Aşağıdakı forma qeydiniz yazılmış söhbət açır.",
+    "hoursLabel": "Cavab saatları",
+    "hours": "Hər gün, {from}–{to}",
+    "instagram": "Instagram",
+    "name": "Ad",
+    "piece": "Parça",
+    "unsure": "Hələ əmin deyiləm",
+    "message": "Mesaj",
+    "error": "Adınızı və qısa bir mesaj yazın.",
+    "submit": "WhatsApp-da göndər",
+    "notesLabel": "Hazır qeydlər",
+    "greeting": "Salam, Soul Jewelry.",
+    "nameLine": "Ad: {name}",
+    "pieceLine": "Maraq: {piece}",
+    "notes": {
+      "gift": "Bunu hədiyyə kimi istəyirəm.",
+      "size": "Ölçüsü necədir?",
+      "available": "Bu hələ varmı?"
+    }
+  },
+  "gift": {
+    "title": "Hədiyyə",
+    "description": "Soul parçası tünd qutu, parça kisə və kartla gedir. Hədiyyədirsə, WhatsApp-da yazın.",
+    "kicker": "Hədiyyə",
+    "heading": "Hədiyyə kimi gedir.",
+    "intro": "Parça evdən tünd qutu, parça kisə və kartla çıxır. Başqası üçün alırsınızsa, bu səhifəni göndərin və WhatsApp-da deyin.",
+    "imageAlt": "Soul qutusu, parça kisə və kart, pəncərə işığında.",
+    "steps": [
+      {
+        "title": "Tünd qutu",
+        "text": "Parça qutunun içində oturur. Açılışı sakitdir."
+      },
+      {
+        "title": "Parça kisə",
+        "text": "Yumşaq kisə. Taxılmayanda parça orada qalır."
+      },
+      {
+        "title": "Kart",
+        "text": "Qutunun içində Soul kartı var."
+      }
+    ],
+    "note": "Hədiyyədirsə, söhbətdə yazın. Qeydi və ünvanı orada razılaşdırırıq.",
+    "cta": "WhatsApp-da yazın",
+    "message": "Salam, Soul Jewelry. Bunu hədiyyə kimi istəyirəm."
+  },
+  "care": {
+    "title": "Qulluq",
+    "description": "Gümüşə qulluq: yumşaq quru parça, ətirsiz, susuz, kisədə.",
+    "kicker": "Gümüş",
+    "heading": "Qısa qulluq.",
+    "intro": "Bu qeydlər gümüş parçalar üçündür.",
+    "steps": [
+      {
+        "title": "Quru parça",
+        "text": "Yumşaq quru parça ilə silin."
+      },
+      {
+        "title": "Ətir yox",
+        "text": "Ətiri və kremi metaldan uzaq tutun."
+      },
+      {
+        "title": "Su yox",
+        "text": "Su ilə yumayın."
+      },
+      {
+        "title": "Kisə",
+        "text": "Taxmayanda parça kisəsinə qoyun."
+      }
+    ],
+    "hoopKicker": "Qatran",
+    "hoopHeading": "İsti halqa.",
+    "hoopIntro": "Bu qeydlər qatran halqa üçündür.",
+    "hoop": [
+      {
+        "title": "Quru parça",
+        "text": "Yumşaq quru parça ilə silin."
+      },
+      {
+        "title": "Məftildən uzaq",
+        "text": "Ətiri məftildən uzaq tutun."
+      },
+      {
+        "title": "Islatmayın",
+        "text": "Suya salmayın."
+      },
+      {
+        "title": "Kisə",
+        "text": "Taxmayanda kisəsinə qoyun."
+      }
+    ],
+    "back": "Seçimə qayıt"
+  },
+  "delivery": {
+    "title": "Çatdırılma",
+    "description": "Bakıda çatdırılma: mərkəzin ətrafındakı altı rayon və dörd metro stansiyası, təxminən 2–3 gün.",
+    "kicker": "Bakı",
+    "heading": "Çatdırılma.",
+    "intro": "Parça mərkəzin ətrafındakı altı rayona, ya da bu metro stansiyalarından birinə gedir. Təxminən 2–3 gün. Yeri WhatsApp-da yazın.",
+    "districtsLabel": "Rayonlar",
+    "districts": ["Səbail", "Nəsimi", "Yasamal", "Nərimanov", "Nizami", "Xətai"],
+    "stationsLabel": "Metro",
+    "stations": ["28 May", "Gənclik", "Həzi Aslanov", "Elmlər Akademiyası"],
+    "timeLabel": "Müddət",
+    "time": "Təxminən 2–3 gün.",
+    "note": "Ünvanı və ya stansiyanı söhbətdə yazın.",
+    "cta": "WhatsApp-da yazın",
+    "message": "Salam, Soul Jewelry. Bakıya çatdırılma haqqında yazıram."
+  },
+  "notFound": {
+    "title": "Bu səhifə seçimdə yoxdur.",
+    "back": "Mağazaya qayıt"
+  },
+  "catalog": {
+    "dalga-sirga": {
+      "name": "Dalğa sırğa",
+      "kind": "Dalğa formalı sırğa",
+      "summary": "Tək dalğa formasında gümüş sırğa.",
+      "description": "Dalğa sırğa cilalanmış gümüşdən, yumşaq, tökülmüş kənarlı bir sırğadır. İşığı tutur və səhərdən gecəyə qədər taxmaq üçün kifayət qədər kiçikdir.",
+      "size": "Sırğa",
+      "alts": [
+        "Dalğa sırğa, gümüş dalğa sırğaları, cüt və qulaqda.",
+        "Soul qutusu, parça kisə və kart, pəncərə işığında."
+      ]
+    },
+    "cubic-sirga": {
+      "name": "Cubic sırğa",
+      "kind": "Kvadrat halqa",
+      "summary": "Yumşaldılmış küncləri olan gümüş halqa, 18 mm.",
+      "description": "Cubic sırğa yuvarlaq küncləri və yüksək cilası olan kvadrat halqadır. Gümüş, 18 mm, yaxın oturur və üzərində qalır.",
+      "size": "18 mm",
+      "alts": [
+        "Cubic sırğa, 18 millimetrlik gümüş kvadrat halqa cütü.",
+        "Soul qutusu, parça kisə və kart, pəncərə işığında."
+      ]
+    },
+    "dalga-uzuk": {
+      "name": "Dalğa üzük",
+      "kind": "Dalğa formalı üzük",
+      "summary": "Barmaq boyu dalğası olan açıq gümüş üzük.",
+      "description": "Dalğa üzük gümüşdən açıq bir ölçüdür, üstündə heykəltəraşlıq dalğası var. Bir az tənzimlənir və hər gün taxmaq üçündür.",
+      "size": "Bir ölçü",
+      "alts": [
+        "Dalğa üzük, açıq heykəltəraşlıq gümüş üzük, bir ölçü.",
+        "Əldə gümüş dalğa üzük və Soul işarəsi."
+      ]
+    },
+    "aura-sirga": {
+      "name": "Aura sırğa",
+      "kind": "Aura sırğası",
+      "summary": "Aura kolleksiyasından əridilmiş gümüş sırğa.",
+      "description": "Aura ərimiş kənarı kiçik gümüş sırğaya çevirir. Qulaqda sakit, işıqlı və bir az qeyri-müntəzəmdir. Aura kolleksiyasındandır.",
+      "size": "Sırğa",
+      "alts": [
+        "Aura sırğa, qeyri-müntəzəm əridilmiş gümüş sırğalar, cüt və taxılmış.",
+        "Soul qutusu, parça kisə və kart, pəncərə işığında."
+      ]
+    },
+    "resin-hoop": {
+      "name": "Qatran halqa",
+      "kind": "Tısbağa qabığı halqa",
+      "summary": "Qızılı tonda məftillə tutulmuş tısbağa qabığı rəngli qatran halqa.",
+      "description": "İsti bir halqa: şəffaf tısbağa qabığı qatranı, qızılı tonda metalla sarınmış. Gümüş parçaların yanında daha tünd bir not.",
+      "size": "Halqa",
+      "alts": [
+        "Qızılı tonda məftilli tısbağa qabığı qatran halqa cütü.",
+        "Taxılmış tısbağa qabığı rəngli halqa sırğalar."
+      ]
+    },
+    "open-ring": {
+      "name": "Açıq üzük",
+      "kind": "Daşlı üzük",
+      "summary": "Açıq rəngli daşlı açıq gümüş üzük.",
+      "description": "Açıq gümüş üzük, solğun daşla, qəsdən bir az qeyri-bərabər. Tək və ya ikinci üzüklə birlikdə taxılır.",
+      "size": "Açıq",
+      "alts": [
+        "Solğun daşlı açıq gümüş üzüklər, əldə üst-üstə.",
+        "Soul qutusu, parça kisə və kart, pəncərə işığında."
+      ]
+    },
+    "dome-ring": {
+      "name": "Günbəz üzük",
+      "kind": "Hündür günbəz",
+      "summary": "Barmaq üçün hündür, cilalanmış gümüş günbəz.",
+      "description": "Güzgü cilalı bütöv gümüş günbəz. Əldə tək bir jest kimi oxunur — dairəvi, parlaq və nəzərdən qaçmayan.",
+      "size": "İri forma",
+      "alts": [
+        "Əldə cilalanmış gümüş günbəz üzük, sırğa ilə.",
+        "Soul qutusu, parça kisə və kart, pəncərə işığında."
+      ]
+    }
+  }
+}
